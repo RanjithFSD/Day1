@@ -1,0 +1,32 @@
+1 . Write a blog on Difference between HTTP1.1 vs HTTP2
+        HTTP
+        HTTP stands for Hypertext Transfer Protocol, which is a protocol for transferring data over the web. 
+        It is the foundation of data communication on the World Wide Web and is used to request and transmit web pages, images, videos, and other resources between web servers and web clients, such as browsers or mobile applications.
+        HTTP is a client-server protocol, which means that it involves communication between a client (such as a web browser or mobile app) and a server (which hosts the website or web application). 
+        The client sends an HTTP request to the server, which then sends an HTTP response back to the client. 
+        The response contains the requested data or resource, such as a web page, image, or video
+
+        HTTP1
+        HTTP 1.0 uses a simple request-response model, where a client sends a request to a server, and the server sends a response back to the client. 
+        The request and response messages are transmitted as plain text over the network, with the header and body separated by a blank line.
+        HTTP 1.0 was designed for a simpler web environment, where most web pages were static and simple. 
+        However, as the web grew more complex and dynamic, HTTP 1.0 became insufficient to handle the demands of modern web applications.
+
+        HTTP2
+        HTTP/2 (Hypertext Transfer Protocol version 2) is an updated version of the HTTP protocol. 
+        It was designed to address some of the limitations and performance issues of HTTP/1.1 and improve the speed and efficiency of web communication.
+        
+        Multiplexing: HTTP/2 allows multiple requests and responses to be sent over a single connection, which improves the performance of the protocol by reducing the overhead of establishing new connections.
+        
+        Binary protocol: HTTP/2 uses a binary protocol instead of the text-based protocol used in HTTP/1.1. 
+        This reduces the size of the data transmitted between the client and server, improving the efficiency of the protocol.
+
+2 . Write a blog about objects and its internal representation in Javascript
+
+        let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};  // array example
+
+
+        Here the - let--> Assignment
+        person-->Name of the array (We can give any name as per requirement) 
+        firstName---> Objects or keys 
+        "Ranjith"---> Value stored in the objects (We can call this value by mention the keys or objects)
