@@ -1,0 +1,9 @@
+2 . Write a blog about objects and its internal representation in Javascript
+
+        let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};  // array example
+
+
+        Here the - let--> Assignment
+        person-->Name of the array (We can give any name as per requirement) 
+        firstName---> Objects or keys 
+        "Ranjith"---> Value stored in the objects (We can call this value by mention the keys or objects)
